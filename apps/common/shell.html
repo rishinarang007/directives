@@ -1,0 +1,38 @@
+﻿<html ng-app="common">
+<head>
+    <title>Ode To Food</title>
+    <link href="../../Styles/css/bootstrap.css" rel="stylesheet" />
+    <link href="../../Styles/animate.css" rel="stylesheet" />
+    <link href="../../Styles/site.css" rel="stylesheet" />
+</head>
+<body>
+
+    <nav ng-include="'templates/alerts.html'"></nav>
+
+    <div class="container">
+        <work-spinner>
+            <img src="../../apps/security/templates/ajax-loader.gif" />
+        </work-spinner>
+        <div class="row">
+            <div class="col-md-8">
+                <div ng-view></div>
+            </div>
+            <div class="col-md-4">
+                <alerts></alerts>
+            </div>
+        </div>
+    </div>
+
+    <script src="../../Js/angular/angular.js"></script>
+    <script src="../../Js/angular/angular-route.js"></script>
+    <script src="../../Js/angular/angular-animate.js"></script>
+    <script src="../../Js/angular/angular-messages.js"></script>
+
+    <script src="module.js"></script>
+   
+
+    
+    
+
+</body>
+</html>

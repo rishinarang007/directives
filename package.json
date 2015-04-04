@@ -1,0 +1,24 @@
+{
+  "name": "uiplaybook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rishinarang007/directives.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rishinarang007/directives/issues"
+  },
+  "homepage": "https://github.com/rishinarang007/directives",
+  "devDependencies": {
+    "connect": "^3.3.5",
+    "serve-static": "^1.9.2",
+    "static": "^2.0.0"
+  }
+}
